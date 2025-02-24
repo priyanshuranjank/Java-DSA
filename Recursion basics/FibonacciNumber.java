@@ -1,16 +1,18 @@
 public class FibonacciNumber {
     public static void main(String[] args) {
-        int num = 5;
+        int num = 10;
        
-       System.out.println( fibanacci(num));         
+       System.out.println( fibonacci(num));         
                 
             }
         
-private static int fibanacci(int num) {
+private static int fibonacci(int num) {
 if (num == 1){return 1;}
 if(num == 0){return 0;}
-    int ans = fibanacci(num - 1) + fibanacci(num - 2);
+    int ans = fibonacci(num - 1) + fibonacci(num - 2);
 
     return ans;
+    
             }
+            
 }
