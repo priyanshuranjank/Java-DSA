@@ -17,5 +17,6 @@ public class slidingWindow {
             maxTotal = Math.max(maxTotal, totalSum);
         }
         return maxTotal;
+        
     }
 }
